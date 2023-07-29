@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-
+ <%=  request.getParameter("f_name"); %>
       <%  response.sendError(407,"authentication işlemi gerekli"); %>
 
 </body>
